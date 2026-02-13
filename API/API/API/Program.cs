@@ -34,6 +34,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 app.UseCors("AllowVueApp");
+app.UseCors("AllowVercel");
 
 app.MapControllers();
 
