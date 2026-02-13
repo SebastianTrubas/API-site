@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <h1 class="almendra-display">Home Page</h1>
+        <h1 class="almendra-display">House Page</h1>
         <div class="image-box">
             <div class="image-screen">
                 <img src="https://media1.tenor.com/m/e80yWgXySiUAAAAC/dr-house-housecat.gif">
