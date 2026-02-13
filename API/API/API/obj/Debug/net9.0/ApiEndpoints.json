@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "MovieAPIController",
+    "Method": "GetMovie",
+    "RelativePath": "api/MovieAPI",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

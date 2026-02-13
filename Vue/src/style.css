@@ -1,0 +1,273 @@
+/* ----------- Font Imports ----------- */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+
+.eb-garamond{
+  font-family: "EB Garamond", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.almendra-display {
+  font-family: "Almendra Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.luxurious-roman {
+  font-family: "Luxurious Roman", serif;
+  font-weight: 400;
+  font-size: 1.7rem;
+  font-style: normal;
+}
+
+
+/* ------------ Vue styling ------------ */
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 3px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+  background-color: rgba(165, 135, 135, 0.5);
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color-blue;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* --------- Base Styling -------- */
+body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(33, 53, 71, 0.3);
+  gap: 1rem;
+  font-size: 1.5em;
+  padding: 3px 0px;
+}
+
+.navbar button {
+  width: 25vw;
+  height: 8vh;
+  transition: 800ms;
+  box-shadow: none;
+}
+
+.navbar button img {
+  box-shadow: none;
+}
+
+.container {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+h1 {
+  margin-top: 8vh;
+}
+
+/* -------- Homepage -------- */
+
+/* --- list --- */
+.homepage-list {
+  text-align: left;
+  flex-wrap: wrap;
+}
+/* --- Image Layout --- */
+.image-box {
+  display: flex;
+  justify-content: center;
+  width: 348px;
+  height: 500px;
+}
+
+.image-screen {
+  width: 100%;
+  height: 100%;
+}
+.image-screen img {
+  border-radius: 20px;
+}
+
+img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+/* --- Text --- */
+.homepage-info {
+  width: min(80vw, 100%);
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* -------- MoviePage -------- */
+
+/* --- Layout --- */
+.searchbar-box {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.searchbar {
+  padding: 5px;
+}
+
+.moviedata-box {
+  margin-top: 15px;
+}
+
+/* --- Table --- */
+table {
+  text-align: left;
+}
+th {
+  width: 100%;
+}
+
+/* --- List --- */
+.movie-metadata {
+  display:flex;
+  width: 100%;
+  gap:25px;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 0px;
+}
+.movie-metadata :first-child {
+  list-style: none;
+  padding: none;
+  margin: none
+}
+.genre-pills {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0.6rem;
+  margin: 0;
+  gap:1rem;
+  list-style: none ;
+}
+.genre-pill {
+  width: min-content;
+  padding: 4px 8px;
+  border: solid 1px white;
+  border-radius: 20px;
+  box-shadow: 2px 2px 5px gray;
+  font-size: 1.2rem;
+}
+
+/* --- Image --- */
+.dynamic-image {
+  transition: box-shadow 0.3s ease;
+}
+
+/* --- Text --- */
+.errors {
+  color: red;
+}
+
+.movie-title {
+  padding-left: 1rem;
+  margin-bottom: 0px
+}
+.movie-rating {
+  font-size: 1.2rem;
+  padding-left: 0.6rem;
+  margin-top: 0px;
+}
+.movie-trailer {
+  margin: 1rem;
+  color: white;
+  text-decoration: underline;
+}
+.movie-summary{
+  max-width: 90%;
+  margin: 0 auto;
+}

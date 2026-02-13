@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B0364EA3-213B-4EA9-B854-E51C768288F7}|API\\API.csproj|c:\\users\\sebas\\documents\\school\\nexed\\vue\\api-site\\api\\api\\api\\controllers\\movieapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0364EA3-213B-4EA9-B854-E51C768288F7}|API\\API.csproj|solutionrelative:api\\controllers\\movieapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0364EA3-213B-4EA9-B854-E51C768288F7}|API\\API.csproj|c:\\users\\sebas\\documents\\school\\nexed\\vue\\api-site\\api\\api\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B0364EA3-213B-4EA9-B854-E51C768288F7}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0364EA3-213B-4EA9-B854-E51C768288F7}|API\\API.csproj|c:\\users\\sebas\\documents\\school\\nexed\\vue\\api-site\\api\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0364EA3-213B-4EA9-B854-E51C768288F7}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-11T08:30:11.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MovieAPIController.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\API\\Controllers\\MovieAPIController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\MovieAPIController.cs",
+              "ToolTip": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\API\\Controllers\\MovieAPIController.cs",
+              "RelativeToolTip": "API\\Controllers\\MovieAPIController.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA5wBsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:17:38.912Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-11T08:13:04.171Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "oSZWkF+kzaU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sebas\\Documents\\School\\nexed\\vue\\API-site\\API\\API\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebas\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.13\\microsoft.aspnetcore.openapi.9.0.13.nupkg.sha512",
+    "C:\\Users\\sebas\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
